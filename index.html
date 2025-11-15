@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanishk's Portfolio</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --secondary: #6366f1;
+            --bg: #f8f9ff;
+            --text: #1f1f1f;
+            --card-bg: #ffffff;
+            --radius: 16px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        header h1 { font-size: 48px; }
+        header p { font-size: 18px; opacity: 0.9; }
+
+        nav {
+            background: #ffffff;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        nav a {
+            color: var(--primary);
+            margin: 0 20px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: 0 4px 25px rgba(0,0,0,0.05);
+        }
+        h2 { color: var(--primary); margin-bottom: 15px; }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto;
+            border: 5px solid var(--primary);
+        }
+
+        .project {
+            background: #eef0ff;
+            padding: 20px;
+            border-radius: var(--radius);
+            margin: 15px 0;
+            transition: 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kanishk's Portfolio</h1>
+    <p>Welcome to my personal website</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#education">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <img src="images/Kanishk2.png" alt="Profile Photo" class="profile-img" />
+    <p>Hello! I’m Kanishk and i am budding developer passionate about creating clean, modern, and responsive web experiences. Explore my skills, projects, and achievements below.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am an enthusiastic learner who enjoys building digital tools and improving technical skills every day. I have a strong interest in programming, design, and problem-solving.</p>
+</section>
+
+<section id="education">
+    <h2>Education & Skills</h2>
+    <h3>Education:</h3>
+    <ul>
+        <li><strong>12th Class –</strong> CBSE Board</li>
+        <li><strong>Bachelor's in Computer Science –</strong> Pursuing</li>
+        <li><strong>Hackathons winner –</strong> Gold  medalist in all india hackathon</li>
+    </ul>
+
+    <h3>Skills:</h3>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>C, C++</li>
+        <li>Python Basics</li>
+        <li>Responsive Web Design</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>A modern and stylish portfolio built with HTML and CSS to showcase my skills and achievements.</p>
+    </div>
+    <div class="project">
+        <h3>Student Record System (C Language)</h3>
+        <p>A simple C program for storing and managing student data using file handling.</p>
+    </div>
+    <div class="project">
+        <h3>JavaScript Calculator</h3>
+        <p>A responsive calculator made using HTML, CSS, and JavaScript.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> kanishkgothwal37@gmail.com</p>
+    <p><strong>Phone:</strong> +91 7300199249</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kanishk-gothwal-211b8b356/" target="_blank">Click Here</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/kanishkgothwal37" target="_blank">Click Here</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Kanishk Portfolio Website</p>
+</footer>
+
+</body>
+</html>
